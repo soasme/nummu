@@ -47,7 +47,7 @@ class Nummu:
                 self._run_update(delay)
                 self._run_draw()
                 progress += delay
-                if progross >= length:
+                if progress >= length:
                     raise StopIteration
             except StopIteration:
                 self.quit()
