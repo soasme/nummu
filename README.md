@@ -39,7 +39,7 @@ Basic usage:
     nm = Nummu(100, 100)
 
     # extend nummu
-    nm.extend()
+    nm.extend(HelloWorld())
 
     # export to apng
     nm.export('helloworld.png', delay=5)
