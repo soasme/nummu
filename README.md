@@ -1,6 +1,6 @@
-# nummu
+# nummu (南無)
 
-An animation image &amp; video maker.
+An animated image maker.
 
 NOTE: this project in WIP and thus interface might change a lot. Be cautious when using in production.
 

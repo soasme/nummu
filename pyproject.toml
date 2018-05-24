@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "nummu"
 version = "0.1.0"
-description = "An animation image & video maker."
+description = "An animated image maker."
 authors = ["Ju Lin <soasme@gmail.com>"]
 
 [tool.poetry.dependencies]
