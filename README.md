@@ -44,7 +44,7 @@ Basic usage:
     # export to apng
     nm.export('helloworld.png', delay=5)
 
-![helloworld](docs/helloworld.png)
+![helloworld](examples/helloworld.png)
 
 Check the examples in project repo, and hopefully it might intrigue you some!
 
