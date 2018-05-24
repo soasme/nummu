@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "nummu"
+version = "0.1.0"
+description = "An animation image & video maker."
+authors = ["Ju Lin <soasme@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpngw = "0.0.7.dev0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.5"
