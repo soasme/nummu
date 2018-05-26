@@ -28,7 +28,7 @@ By extending Nummu, you might want to implement a class having these methods: `i
             # Pallete is simply a numpy.zeros instance.
             # Overwrite any pixels as you want.
             #
-            pallete[:, self.position] = 1
+            pallete[:, self.position, :] = 255
 
 Basic usage:
 
