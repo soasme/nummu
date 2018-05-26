@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nummu"
-version = "0.1.0"
+version = "0.1.2"
 description = "An animated image maker."
 authors = ["Ju Lin <soasme@gmail.com>"]
 
