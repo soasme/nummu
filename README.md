@@ -44,7 +44,7 @@ Basic usage:
     # export to apng
     nm.export('helloworld.png', delay=5)
 
-![helloworld](examples/helloworld.png)
+![helloworld](https://github.com/soasme/nummu/raw/master/examples/helloworld.png)
 
 Check the examples in project repo, and hopefully it might intrigue you some!
 

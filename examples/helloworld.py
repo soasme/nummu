@@ -12,7 +12,7 @@ class HelloWorld:
             raise StopIteration
 
     def draw(self, pallete):
-        pallete[:, self.position] = 255
+        pallete[:, self.position, :] = 255
 
 
 def main():
