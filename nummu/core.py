@@ -1,4 +1,5 @@
 import numpy as np
+from array2gif import write_gif
 from numpngw import write_apng
 
 class Nummu:
@@ -49,4 +50,9 @@ class Nummu:
                     raise StopIteration
             except StopIteration:
                 self.quit()
-        write_apng(filename, self.seq, delay=delay, use_palette=True)
+        if filename.endswith('.png'):
+            write_apng(filename, self.seq, delay=delay, use_palette=True)
+        elif filename.endswith('.gif'):
+            write_gif(self.seq, filename, fps=int(1000/delay))
+        else:
+            raise NotImplementedError('Unsupported file format')

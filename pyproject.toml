@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.6"
 numpngw = "0.0.7.dev0"
+array2gif = "^1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.5"
