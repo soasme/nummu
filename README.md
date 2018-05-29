@@ -4,6 +4,10 @@ An animated image maker.
 
 NOTE: this project in WIP and thus interface might change a lot. Be cautious when using in production.
 
+![helloworld](https://github.com/soasme/nummu/raw/master/examples/helloworld.png)
+![line](https://github.com/soasme/nummu/raw/master/examples/line.gif)
+![rect](https://github.com/soasme/nummu/raw/master/examples/rect.gif)
+
 ## Usage
 
 By extending Nummu, you might want to implement a class having these methods: `init()`, `update(delta)`, `draw(palette)`. None of them are absolutely required.
@@ -44,7 +48,6 @@ Basic usage:
     # export to apng
     nm.export('helloworld.png', delay=5)
 
-![helloworld](https://github.com/soasme/nummu/raw/master/examples/helloworld.png)
 
 Check the examples in project repo, and hopefully it might intrigue you some!
 
