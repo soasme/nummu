@@ -4,9 +4,11 @@ An animated image maker.
 
 NOTE: this project in WIP and thus interface might change a lot. Be cautious when using in production.
 
-![helloworld](https://github.com/soasme/nummu/raw/master/examples/helloworld.png)
-![line](https://github.com/soasme/nummu/raw/master/examples/line.gif)
-![rect](https://github.com/soasme/nummu/raw/master/examples/rect.gif)
+|Image|Script|
+|-----|------|
+|![helloworld](https://github.com/soasme/nummu/raw/master/examples/helloworld.png)|[examples/helloworld.py](examples/helloworld.py)|
+|![line](https://github.com/soasme/nummu/raw/master/examples/line.gif)|[examples/line.py](examples/line.py)|
+|![rect](https://github.com/soasme/nummu/raw/master/examples/rect.gif)|[examples/rect.py](examples/rect.py)|
 
 ## Usage
 
