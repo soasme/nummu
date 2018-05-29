@@ -23,7 +23,7 @@ def main():
     from nummu import Nummu
     nm = Nummu(100, 100)
     nm.extend(Rect())
-    nm.export('rect.png', delay=4)
+    nm.export('rect.gif', delay=4)
 
 
 if __name__ == '__main__':
