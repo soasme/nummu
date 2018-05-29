@@ -1,3 +1,8 @@
+## 0.1.4 - 2018-05-29
+
+* Support drawing line.
+* Support drawing rectangle.
+
 ## 0.1.3 - 2018-05-27
 
 * Support GIF creation.
