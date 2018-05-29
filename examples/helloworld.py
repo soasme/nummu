@@ -7,7 +7,6 @@ class HelloWorld:
 
     def update(self, delta):
         self.position += delta
-        print(self.position)
         if self.position >= 100:
             raise StopIteration
 
@@ -19,7 +18,7 @@ def main():
     from nummu import Nummu
     nm = Nummu(100, 100)
     nm.extend(HelloWorld())
-    nm.export('helloworld.png', delay=5)
+    nm.export('helloworld.gif', delay=5)
 
 
 if __name__ == '__main__':
