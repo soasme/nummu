@@ -67,6 +67,25 @@ $ poetry develop
 $ poetry run python examples/helloworld.py
 ```
 
+## Test
+
+Currently nummu support running on 3.6, 3.7
+
+```
+$ pyenv install 3.6.5
+$ pyenv install 3.7.0b2
+$ pyenv local 3.6.5 3.7.0b2
+$ export PATH=$(pyenv root)/shims:$PATH
+$ tox
+py36 runtests: commands[0] | poetry develop
+py36 runtests: commands[0] | poetry run pytest
+py37 runtests: commands[0] | poetry develop
+py37 runtests: commands[0] | poetry run pytest
+  py36: commands succeeded
+  py37: commands succeeded
+  congratulations :)
+```
+
 ## Credit
 
 Thanks Pillow, numpy, numpngw and array2gif! Nummu stands on the shoulder of these giants!
