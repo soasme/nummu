@@ -3,7 +3,7 @@ from nummu import draw
 
 class Ghost:
 
-    def init(self):
+    def __init__(self):
         self.seq = 0
         self.total = 4
 

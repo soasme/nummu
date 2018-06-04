@@ -2,7 +2,7 @@ import numpy as np
 
 class HelloWorld:
 
-    def init(self):
+    def __init__(self):
         self.position = 0
 
     def update(self, delta):

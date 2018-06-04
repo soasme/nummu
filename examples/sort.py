@@ -26,8 +26,6 @@ class SortAnimator:
         self.seq = copy(seq)
         self.instrument = Instrument()
         self.instrument.emit(self.seq)
-
-    def init(self):
         self.sort(self.seq)
         self.frames = iter(self.instrument.events)
         self.current_frame = None

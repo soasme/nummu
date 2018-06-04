@@ -3,7 +3,7 @@ from nummu import draw
 
 class Line:
 
-    def init(self):
+    def __init__(self):
         self.y1 = 0
         self.y2 = 100
 
