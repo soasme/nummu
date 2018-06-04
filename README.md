@@ -59,7 +59,7 @@ Basic usage:
     nm.export('helloworld.gif', delay=5)
 
 
-Check the examples in project repo, and hopefully it might intrigue you some!
+Check the examples in project repo, and hopefully it might help you!
 
 ## Develop
 
