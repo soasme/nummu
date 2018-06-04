@@ -21,3 +21,13 @@ def line(pallete, x1, y1, x2, y2, color=0):
     draw = ImageDraw.Draw(img)
     draw.line((x1, y1, x2, y2), fill=color)
     pallete[:, :, :] = np.asarray(img)
+
+
+def image(pallete, x, y, img):
+    bg = Image.fromarray(pallete)
+    if isinstance(img, str):
+        _img = Image.open(img)
+        bg.paste(_img, (x, y), _img)
+    else:
+        raise ValueError('unknown img type.')
+    pallete[:, :, :] = np.asarray(bg)
