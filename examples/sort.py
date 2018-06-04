@@ -297,7 +297,7 @@ def main(sortname):
         sys.exit(1)
     filename = f'{sortname}.png'
     nm = Nummu(100, 255)
-    nm.extend(clz(gen_alist()))
+    nm.add(clz(gen_alist()))
     nm.export(filename, delay=5)
 
 

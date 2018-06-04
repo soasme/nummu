@@ -20,7 +20,7 @@ $ pip install nummu
 
 ## Usage
 
-By extending Nummu, you might want to implement a class having these methods: `init()`, `update(delta)`, `draw(palette)`. None of them are absolutely required.
+Nummu is simply a framework so you might want to implement a class having these methods: `update(delta)`, `draw(palette)`. None of them are absolutely required.
 
     class HelloWorld:
 
@@ -52,8 +52,8 @@ Basic usage:
     # set file size
     nm = Nummu(100, 100)
 
-    # extend nummu
-    nm.extend(HelloWorld())
+    # add drawer defined previously
+    nm.add(HelloWorld())
 
     # export to gif
     nm.export('helloworld.gif', delay=5)

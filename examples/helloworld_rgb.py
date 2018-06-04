@@ -21,7 +21,7 @@ class HelloWorld:
 
 def main():
     nm = Nummu(100, 100)
-    nm.extend(HelloWorld())
+    nm.add(HelloWorld())
     nm.export('helloworld.png', delay=4)
 
 

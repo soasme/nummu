@@ -22,7 +22,7 @@ class Rect:
 def main():
     from nummu import Nummu
     nm = Nummu(100, 100)
-    nm.extend(Rect())
+    nm.add(Rect())
     nm.export('rect.gif', delay=4)
 
 

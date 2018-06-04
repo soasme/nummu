@@ -22,7 +22,7 @@ class Line:
 def main():
     from nummu import Nummu
     nm = Nummu(100, 100)
-    nm.extend(Line())
+    nm.add(Line())
     nm.export('line.gif', delay=4)
 
 

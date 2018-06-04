@@ -14,10 +14,10 @@ class Nummu:
         self.height = height
         self.weight = weight
 
-    def add(self, name, type, **meta):
+    def load(self, name, type, **meta):
         self.resources[name] = dict(type=type, **meta)
 
-    def extend(self, mod):
+    def add(self, mod):
         self.modules.append(mod)
 
     def quit(self):

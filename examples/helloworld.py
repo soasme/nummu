@@ -17,7 +17,7 @@ class HelloWorld:
 def main():
     from nummu import Nummu
     nm = Nummu(100, 100)
-    nm.extend(HelloWorld())
+    nm.add(HelloWorld())
     nm.export('helloworld.gif', delay=5)
 
 
