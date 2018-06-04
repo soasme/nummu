@@ -10,6 +10,7 @@ NOTE: this project in WIP and thus interface might change a lot. Be cautious whe
 |![line](https://github.com/soasme/nummu/raw/master/examples/line.gif)|[examples/line.py](examples/line.py)|
 |![rect](https://github.com/soasme/nummu/raw/master/examples/rect.gif)|[examples/rect.py](examples/rect.py)|
 |![bubblesort](https://gist.github.com/soasme/e3f1a210cc7e7750d304cb43b6aaad23/raw/d6e5687ce8492bd5865f4d7f38a5ec421c5d4c1b/bubblesort.png) Bubble Sort<br> ![heapsort](https://gist.github.com/soasme/e3f1a210cc7e7750d304cb43b6aaad23/raw/d6e5687ce8492bd5865f4d7f38a5ec421c5d4c1b/heapsort.png) Heap Sort<br> ![insertionsort](https://gist.github.com/soasme/e3f1a210cc7e7750d304cb43b6aaad23/raw/d6e5687ce8492bd5865f4d7f38a5ec421c5d4c1b/insertionsort.png) Insertion Sort<br> ![mergesort](https://gist.github.com/soasme/e3f1a210cc7e7750d304cb43b6aaad23/raw/d6e5687ce8492bd5865f4d7f38a5ec421c5d4c1b/mergesort.png) Merge Sort<br> ![quicksort](https://gist.github.com/soasme/e3f1a210cc7e7750d304cb43b6aaad23/raw/d6e5687ce8492bd5865f4d7f38a5ec421c5d4c1b/quicksort.png) Quick Sort<br> ![selectionsort](https://gist.github.com/soasme/e3f1a210cc7e7750d304cb43b6aaad23/raw/d6e5687ce8492bd5865f4d7f38a5ec421c5d4c1b/selectionsort.png) Selection Sort |[examples/sort.py](examples/sort.py)|
+|![image](https://github.com/soasme/nummu/raw/master/examples/ghost.gif)|[examples/image.py](examples/image.py)|
 
 ## Install
 
