@@ -1,6 +1,6 @@
 [[package]]
 name = "array2gif"
-version = "1.0.0"
+version = "1.0.3"
 description = "Write a (list of) NumPy array(s) to an (animated) GIF."
 category = "main"
 optional = false
@@ -127,10 +127,10 @@ platform = "*"
 [metadata]
 python-versions = "^3.6"
 platform = "*"
-content-hash = "0bb9d72e2c09db4930852cd4bd5cbff29c81c3c0d1742c494d6f07000cfc0965"
+content-hash = "dd13fa317f3c69c5057d20d5fcf38c4bc299a4907a5618ac5a3e9e35edc4b5c9"
 
 [metadata.hashes]
-array2gif = [ "ac38667185fd0f56beca75ce295a83431f5446a6987f1a40f49fbacb12a5653b", "840a5bc0d35c3431c90787a59bdcee2f302f69f9df69994b75c106cd679f27cf", "4c261cf0b958d9fd122180767716337842eee73494297f359dff822904da643d",]
+array2gif = [ "c677f92aadfb2b2a923e9037e85fc5e6daee208f8fb864a35b53c828cd04eba7", "2f792e5fdba9e35b68dab9afebf94ec6021edd41d3b21741ce31345f0587a203", "bda921f71366246e08235131aefa9b6272c168d886babae71ed4509be884c370",]
 atomicwrites = [ "a24da68318b08ac9c9c45029f4a10371ab5b20e4226738e150e6e7c571630ae6", "240831ea22da9ab882b551b31d4225591e5e447a68c5e188db5b89ca1d487585",]
 attrs = [ "4b90b09eeeb9b88c35bc642cbac057e45a5fd85367b985bd2809c62b7b939265", "e0d0eb91441a3b53dab4d9b743eafc1ac44476296a2053b6ca3af0b139faf87b",]
 colorama = [ "463f8483208e921368c9f306094eb6f725c6ca42b0f97e313cb5d5512459feda", "48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1",]
