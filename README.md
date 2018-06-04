@@ -24,7 +24,7 @@ By extending Nummu, you might want to implement a class having these methods: `i
 
     class HelloWorld:
 
-        def init(self):
+        def __init__(self):
             # Do initial work here
             self.position = 0
 
