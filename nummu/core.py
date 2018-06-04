@@ -1,3 +1,5 @@
+import warnings
+
 import numpy as np
 from array2gif import write_gif
 from numpngw import write_apng
@@ -24,6 +26,7 @@ class Nummu:
     def _run_init(self):
         for mod in self.modules:
             if hasattr(mod, 'init'):
+                warnings.warn('init is deprecated, use __init__ instead.', DeprecationWarning)
                 mod.init()
 
     def _run_update(self, delta):
