@@ -53,6 +53,10 @@ class Nummu:
         if filename.endswith('.png'):
             write_apng(filename, self.seq, delay=delay, use_palette=True)
         elif filename.endswith('.gif'):
-            write_gif(self.seq, filename, fps=int(1000/delay))
+            # array2gif requires a transposed matrix compared to numpngw.
+            seq = []
+            for s in self.seq:
+                seq.append(np.transpose(s, axes=[1, 0, 2]))
+            write_gif(seq, filename, fps=int(1000/delay))
         else:
             raise NotImplementedError('Unsupported file format')
