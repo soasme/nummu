@@ -31,3 +31,13 @@ def image(pallete, x, y, img):
     else:
         raise ValueError('unknown img type.')
     pallete[:, :, :] = np.asarray(bg)
+
+def text(pallete, x, y, text, font=None, size=None, color=0):
+    img = Image.fromarray(pallete)
+    draw = ImageDraw.Draw(img)
+    if font and size:
+        _font = ImageFont.truetype(font, size)
+    else:
+        _font = None
+    draw.text((x, y), text, font=_font, fill=color)
+    pallete[:, :, :] = np.asarray(img)
