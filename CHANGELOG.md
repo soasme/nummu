@@ -1,3 +1,12 @@
+## 0.1.9 - 2018-06-12
+
+* Support drawing text.
+
+## 0.1.8 - 2018-06-04
+
+* Rename extend to add.
+* remove init hook.
+
 ## 0.1.4 - 2018-05-29
 
 * Support drawing line.
